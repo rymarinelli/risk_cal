@@ -1,0 +1,8 @@
+transformers
+torch
+pandas
+numpy
+sentence_transformers
+datasets
+feedparser
+matplotlib

@@ -6,10 +6,16 @@ The research was mostly conducted on Google Colab. The ```notebooks``` directory
 more easily share and distribute. 
 
 The ```--use_categorical``` arg will calculate harm based on cateogories. It will produce the graphs of interest
-!python /content/risk_cal-main/risk_cal-main/src/main.py --use_categorical --num_epochs=10
+
+```{bash}
+python /content/risk_cal-main/risk_cal-main/src/main.py --use_categorical --num_epochs=10
+```
 
 Without passing the arg, it will default to the global centroid. 
-!python /content/risk_cal-main/risk_cal-main/src/main.py --num_epochs=100
+
+```{bash}
+python /content/risk_cal-main/risk_cal-main/src/main.py --num_epochs=100
+```
 
 The ```data``` directory has snapshots of some of the news summaries. It might be interesting to review to see what was being calibrated on. 
 
